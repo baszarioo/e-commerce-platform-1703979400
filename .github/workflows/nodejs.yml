@@ -16,7 +16,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: .\FRONTEND
+        working-directory: .\FRONTEND\ecommerce-angular
 
     strategy:
       matrix:
@@ -42,7 +42,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: .\FRONTEND
+        working-directory: .\FRONTEND\ecommerce-angular
     
     strategy:
       matrix:
