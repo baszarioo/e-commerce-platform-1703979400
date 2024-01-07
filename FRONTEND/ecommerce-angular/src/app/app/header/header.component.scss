@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.nav-link {
+  color: #6c757d;
+}
+
+.nav-link:hover {
+  color: #343a40;
+}
+
+.fa {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-field {
+  width: 800px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+
+}
