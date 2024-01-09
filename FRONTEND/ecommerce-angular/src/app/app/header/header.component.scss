@@ -31,15 +31,22 @@
 
 .search-form {
   display: flex;
+  // flex-wrap: wrap;
   align-items: center;
 }
 
 .search-field {
-  width: 800px;
+  transform: translateY(0.6em) scale(0.7);
+  width: 200.33333%;
+  margin: auto;
 }
 
 .nav-icons {
   display: flex;
   align-items: center;
 
+}
+// new!!!
+button[matSuffix] {
+  line-height: 1;
 }
