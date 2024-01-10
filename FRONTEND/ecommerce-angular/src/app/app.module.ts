@@ -9,6 +9,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input'
 import { MatCheckboxModule } from '@angular/material/checkbox'
+import {MatDividerModule} from '@angular/material/divider';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,12 +17,16 @@ import { HeaderComponent } from './app/header/header.component';
 import { FooterComponent } from './app/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CustomFormFieldComponent } from './app/header/custom-form-field/custom-form-field.component';
+import { SearchFormFieldComponent } from './app/header/search-form-field/search-form-field.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CustomFormFieldComponent,
+    SearchFormFieldComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatRadioModule,
     ReactiveFormsModule,
     MatInputModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
